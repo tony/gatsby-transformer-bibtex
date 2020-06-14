@@ -94,5 +94,3 @@ public/
 
 # DynamoDB Local files
 .dynamodb/
-
-/gatsby-node.js
