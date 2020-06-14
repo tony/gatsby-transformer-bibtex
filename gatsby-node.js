@@ -1,6 +1,6 @@
-import { URL } from 'url';
-import { parseBibFile } from 'bibtex';
-import _ from 'lodash';
+const URL = require('url').URL;
+const parseBibFile = require('bibtex').parseBibFile;
+const _ = require( 'lodash');
 
 function getRaw(allContent, key) {
   let openbib = /@\s*\w+\s*{(.+),/gm;
